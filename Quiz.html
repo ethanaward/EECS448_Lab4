@@ -5,14 +5,45 @@
   </head>
 
   <body>
-    <form>
-      <input type="radio" id = "yes" name="test" value="yes" checked>Yes<br>
-      <input type="radio" id = "no" name="test" value="no">No<br>
-      <input type="radio" id = "maybe" name="test" value="maybe">Maybe
-
-      <br>
-
-      <input type ="button" onclick="alert('Hello, World')" value = "test">
+    <form action = "Quiz.php" method = "post">
+	
+		Question 1: What do variable names in PHP start with? <br>
+      <input type="radio" id = "#" name="Question1" value="#">#<br>
+      <input type="radio" id = "?" name="Question1" value="?">?<br>
+      <input type="radio" id = "$" name="Question1" value="$">$<br>
+	  <input type="radio" id = "@" name="Question1" value="@">@<br>
+	  <br>
+	  
+	  Question 2: What does PHP stand for? <br>
+      <input type="radio" id = "Please Help Paul" name="Question2" value="Please Help Paul">Please Help Paul<br>
+      <input type="radio" id = "Pre Hypertext Processor" name="Question2" value="Pre Hypertext Processor">Pre Hypertext Processor<br>
+      <input type="radio" id = "Personal Hypertext Program" name="Question2" value="Personal Hypertext Program">Personal Hypertext Program<br>
+	  <input type="radio" id = "Hypertext Preprocessor" name="Question2" value="Hypertext Preprocessor">Hypertext Preprocessor<br>
+	  <br>
+	  Question 3: What is the global array in PHP called? <br>
+	  
+      <input type="radio" id = "$_BEFORE" name="Question3" value="$_BEFORE">$_BEFORE<br>
+      <input type="radio" id = "$_AFTER" name="Question3" value="$_AFTER">$_AFTER<br>
+      <input type="radio" id = "$_POST" name="Question3" value="$_POST">$_POST<br>
+	  <input type="radio" id = "$_PRE" name="Question3" value="$_PRE">$_PRE<br>
+	  <br>
+	  Question 4: What do PHP scripts start with? <br>
+	  
+      <input type="radio" id = "yes" name="Question4" value="">Yes<br>
+      <input type="radio" id = "no" name="Question4" value="no">No<br>
+      <input type="radio" id = "maybe" name="Question4" value="maybe">Maybe<br>
+	  <input type="radio" id = "sure" name="Question4" value="sure">Sure<br>
+	  <br>
+	  Question 5: What is your favorite thing? <br>
+	  
+      <input type="radio" id = "yes" name="Question5" value="yes">Yes<br>
+      <input type="radio" id = "no" name="Question5" value="no">No<br>
+      <input type="radio" id = "maybe" name="Question5" value="maybe">Maybe<br>
+	  <input type="radio" id = "sure" name="Question5" value="sure">Sure<br>
+	  
+	  
+		<input type = submit>
+      <button name = "Quiz" type = "submit">Submit Quiz</button>
 
     </form>
   </body>
