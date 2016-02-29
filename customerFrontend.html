@@ -1,0 +1,41 @@
+<html>
+
+	<head>
+		<title>Web Store</title>
+	
+		<link href = "style.css"
+			rel = "stylesheet"
+			type = "text/css">
+	</head>
+
+	<body>
+	
+		<script type = "text/javascript"
+			src = "formChecker.js">
+		</script> 
+
+		<form onSubmit = "return formChecker()" action = "customerBackend.php" method = "post">
+
+		<h1>Welcome to Ethan Ward's Web Store!</h1>
+
+		<p>Please enter username and password:</p>
+
+		Username: <input type = "text" name = "username" id = "username"><br>
+		Password: <input type = "password" name = "password" id = "password"><br>
+		Note: Username should be in format user@name.com.<br><br>
+
+		<p>What do you want to buy?</p>
+		Apples at $1.00 each: <input type = "number" name = "apple" id = "apple"><br>
+		Oranges at $3.00 each: <input type = "number" name = "orange" id = "orange"><br>
+		Pears at $2.00 each: <input type = "number" name = "pear" id = "pear"<br>		
+
+		<p>Choose your shipping:</p>
+		<input type = "radio" name = "shipping" value = "7 day" id = "7">7 day<br>
+		<input type = "radio" name = "shipping" value = "Overnight" id = "50">$50.00 over night<br>
+		<input type = "radio" name = "shipping" value = "3 day" id = "5">$5.00 three day<br>	
+		
+		<input type = "submit">
+	
+		</form>		
+	</body>
+</html>

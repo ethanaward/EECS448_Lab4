@@ -1,0 +1,40 @@
+table,tr,th,td
+{
+	border: 1px solid black;
+
+}
+
+td
+{
+	background-color: #6c7b93;
+
+}
+
+th
+{
+	background-color: #59a665;
+}
+
+body
+{
+	background-color: #b1cfc9;
+	font-family: arial;
+}
+
+input
+{
+	padding: 6px 10px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	background-color: #6c7b93;
+	color: white;
+}
+
+p
+{
+	border-radius: 10px;
+	background: #db7b24;
+	padding: 20px;
+	width: 20%;
+	height: 20px;
+}
