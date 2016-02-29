@@ -28,6 +28,8 @@ else if($answer4 == "4") {
 	$answer4 = htmlspecialchars('<begin?');
 }
 
+echo "<body style = 'background-color:#b1cfc9'>";
+
 echo "<p>Question 1: What do variable names in PHP start with?</p>";
 echo "Your first answer was: " . $answer1 . "<br>";
 echo "The correct answer was: $<br>";
@@ -77,5 +79,7 @@ if($answer5 == "echo") {
 echo "<br><br>You got " . $right . " questions correct.";
 echo "<br>Your score was: " . $score;
 
-
+echo "<br><br><a href = 'http://people.eecs.ku.edu/~eward/EECS448/Lab4/Quiz.html'>Back to Quiz</a>";
+echo "<br><a href = 'http://people.eecs.ku.edu/~eward/index.html'>Back to Main Page</a>";
+echo "</body>";
 ?>

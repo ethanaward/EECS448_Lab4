@@ -64,4 +64,7 @@ echo "<tr>
 
 echo "</table>";
 
+echo "<br><a href = 'http://people.eecs.ku.edu/~eward/EECS448/Lab4/customerFrontend.html'>Back to Shop</a>";
+echo "<br><a href = 'http://people.eecs.ku.edu/~eward/index.html'>Back to Main Page</a>";
+
 ?>
